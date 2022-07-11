@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import JSX from './JSX';
 import reportWebVitals from './reportWebVitals';
+import TypeOfFood from './TypeOfFood';
 
+// Uncomment for JSX
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <JSX />
+//   </React.StrictMode>
+// );
+
+// Fruits
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <TypeOfFood />
   </React.StrictMode>
 );
 
